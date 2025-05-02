@@ -1,0 +1,184 @@
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media screen and (max-width:480px) {
+    html {
+        /* 1rem = 10px */
+        font-size: 40%;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    main section {
+        width: 650px;
+    }
+
+    main>section>* {
+        margin: 0 40px;
+    }
+
+    main h1 {
+        font-size: 6rem;
+        padding-top: 88px;
+    }
+
+    main {
+        background: url(../assets/mainbg-mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        height: 475px;
+    }
+
+    .imageFull {
+        display: block;
+    }
+
+    .imageMobile {
+        display: block;
+    }
+
+    nav {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    nav img {
+        height: 50px;
+        width: auto;
+        padding-right: 20vw;
+        padding-left: 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .aboutUs {
+        margin: 100px 20px 47px 20px;
+    }
+
+    .aboutUs h3 {
+        font-size: 1.5rem;
+    }
+
+    .aboutUs h1 {
+        font-size: 3rem;
+    }
+
+    .aboutUs p {
+        width: 200px;
+        margin: auto;
+        font-size: 1.45rem;
+    }
+
+    .services {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .lookbook {
+        margin-top: 150px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer>section {
+        padding: 0;
+    }
+
+    .businessHours ul {
+        width: 180px;
+        margin: auto;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:825px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    nav img {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 10px
+    }
+
+    nav ul li:first-child,
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3) {
+        display: none;
+    }
+
+    footer>section {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    main {
+        background: url(../assets/mainbg-tablet.png);
+        background-repeat: no-repeat;
+        /* background-position: center center;
+        background-attachment: fixed;
+        background-size: cover; */
+        height: 600px;
+    }
+
+    .imageFull {
+        height: 50px;
+        width: auto;
+        padding-right: 1vw;
+        padding-left: 20px;
+    }
+
+    main>section>* {
+        margin: 0 50px;
+    }
+
+    nav ul li {
+        list-style: none;
+        width: 100px;
+    }
+
+    /* .bookOnline {
+        width: 123px;
+    } */
+
+    .aboutUs p {
+        width: 400px;
+        margin: auto;
+    }
+
+    .aboutUs h1 {
+        font-size: 5rem;
+    }
+}
