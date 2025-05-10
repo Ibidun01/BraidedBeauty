@@ -122,7 +122,7 @@ main h1+p {
 }
 
 .aboutUs p {
-  font-size: 2rem;
+  font-size: 3rem;
   padding-bottom: 50px;
 }
 
@@ -147,7 +147,7 @@ main h1+p {
 }
 
 .servicesIndividual {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   width: 200px;
 }
 
@@ -226,7 +226,7 @@ footer span {
 .contact h5 {
   text-decoration: none;
   color: #3a1b0f;
-  font-size: 1.5rem;
+  font-size: 2rem;
 
 }
 
@@ -269,7 +269,7 @@ footer span {
 }
 
 footer p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .businessHours ul+p {
