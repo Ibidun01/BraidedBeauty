@@ -38,7 +38,7 @@
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#lookbook">LOOKBOOK</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <!--with border -->
                 </ul>
@@ -76,87 +76,19 @@
             </section>
         </section>
 
-        <section id="lookbook" class="lookbook">
-            <h2>OUR LOOKBOOK</h2>
-            <!-- partial:index.partial.html -->
-            <div class="container">
-                <div class="wgh-slider">
-                    <input class="wgh-slider-target" type="radio" id="slide-1" name="slider" />
-                    <input class="wgh-slider-target" type="radio" id="slide-2" name="slider" />
-                    <input class="wgh-slider-target" type="radio" id="slide-3" name="slider" checked="checked" />
-                    <input class="wgh-slider-target" type="radio" id="slide-4" name="slider" />
-                    <input class="wgh-slider-target" type="radio" id="slide-5" name="slider" />
-                    <div class="wgh-slider__viewport">
-                        <div class="wgh-slider__viewbox">
-                            <div class="wgh-slider__container">
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img
-                                                class="wgh-slider-item-figure__image" src="assets/03.png"
-                                                alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Boho Braids
-                                                    </a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-1"
-                                            title="Show product 1"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img
-                                                class="wgh-slider-item-figure__image" src="assets/02.png"
-                                                alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Weaving Braids
-                                                </a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-2"
-                                            title="Show product 2"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img
-                                                class="wgh-slider-item-figure__image" src="assets/01.png"
-                                                alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Hair Spa Services
-                                                    </a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-3"
-                                            title="Show product 3"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img
-                                                class="wgh-slider-item-figure__image" src="assets/04.png"
-                                                alt="The 5th Exotic" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Hair
-                                                    Styling</a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-4"
-                                            title="Show product 4"></label>
-                                    </div>
-                                </div>
-                                <div class="wgh-slider-item">
-                                    <div class="wgh-slider-item__inner">
-                                        <figure class="wgh-slider-item-figure"><img
-                                                class="wgh-slider-item-figure__image" src="assets/05.png"
-                                                alt="RYSY - Traveler LP" />
-                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Fashion Hair
-                                                    Colour</a><span>Services</span></figcaption>
-                                        </figure>
-                                        <label class="wgh-slider-item__trigger" for="slide-5"
-                                            title="Show product 5"></label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- partial -->
-
         </section>
+        <section id="gallery" class="imageGallery">
+            <h2>Gallery</h2>
+            <div id="gallery-grid" class="gallery-grid"></div>
+          </section>
+          <section id="carousel" class="carousel-section">
+            <div class="carousel-container">
+              <button id="prevBtn">⟨</button>
+              <div class="carousel-slide" id="carousel-slide"></div>
+              <button id="nextBtn">⟩</button>
+            </div>
+          </section>
+                    
 
         <footer>
             <section class="ourCare">
